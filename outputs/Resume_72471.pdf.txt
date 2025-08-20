@@ -1,0 +1,54 @@
+AKSHAYA N
+Engineering Undergraduate
+8072507769 | akshayanagaraj47@gmail.com |LinkedIn
+SUMMARY
+Creative and detail-oriented Machine Learning enthusiast with hands-on experience in biomedical, NLP, and data visualization
+projects. Proficient in Python, MATLAB, and Django. Participated in competitions and quiz, with strong skills in analytical
+thinking, teamwork, and rapid prototyping. Passionate about building AI-driven tools that solve real-world problems.
+TECHNICAL SKILLS
+ Machine Learning & Data Analysis: Python, Django, MATLAB, Scikit-learn, TensorFlow,
+Tableau (Intermediate).
+ Data Visualization: Matplotlib, Seaborn, Tableau.
+ Programming Languages: Python (with DSA), MATLAB, Java (with DSA), C, OOPS.
+ Tools & Techniques: Data Visualization, Data Analysis.
+ Soft Skills: Communication & Interpersonal Skills, Time Management & Prioritization, Collaboration & Teamwork,
+Leadership & Initiative, Adaptability & Quick Learning, Creative Thinking & Art Appreciation.
+PROJECTS
+ Food Book (HTML/CSS/JS) – Developed a responsive web application using HTML, CSS, and JavaScript to
+browse and view food recipes. Implemented search and filtering features with dynamic recipe display and
+bookmarking using localStorage.
+ Fitbit Gadget (Python) – Built a Python-based wearable tech solution to monitor animal health metrics and promote
+well-being. Implemented data collection and analysis features to track vital signs and detect abnormalities.
+ IMP-Yeild (Python) –Working on a predictive analysis platform using machine learning to optimize irrigation
+schedules, enhancing crop yield and resource management for farmers.
+ Face Detection: Facial Reconstruction from Skull (Python) – Applied computer vision to reconstruct facial
+structure from skull input.
+ Color Correction for Accessibility (MATLAB) – Implemented Daltonization, Veinot, and wavelet methods to improve
+visuals for color-blind users; evaluated via MSE/SSIM.
+ Facial Images using Deep Learning (Python) –Model capable of predicting age, gender and race from facial images
+using the UTK Face dataset; achieved 95% accuracy.
+ FarmEye(Python) – Developed a pest detection model using Python and YOLOv11 to assist in smart farming. Trained
+the model on agricultural datasets for accurate real-time pest identification and monitoring.
+EDUCATION
+ Bachelor of Technology – Computer Science Engineering
+Dayananda Sagar University, Bengaluru | 2022 – 2026 | 7.08 CGPA(as of 6th sem)
+ Higher Secondary (Class XII) – Nalanda International Public School
+2020 – 2022
+ Primary & Secondary – Sri Chaitanya Techno School
+2010 – 2020
+INTERNSHIP
+ Accenture– Completely virtual internship, tasks that reflect the actual work done by software
+engineers.
+ JP Morgan– Completely virtual internship, tasks that reflect the actual work done by analysts.CERTIFICATIONS
+• Python
+• Data Analysis
+• Deep Learning
+• Python for Data Science
+• Software Engineering Lite Job Simulation
+• Image Processing using MATLAB
+OTHERS
+ Languages: English, Kannada, Tamil, Telugu
+ Ongoing Project: “FarmEye – A pest detection Tool”
+ Paper Publication:
+o "FarmEye AI-Powered pest detection system using YOLOv11" – Institute of Electrical and Electronics
+Engineers,2025

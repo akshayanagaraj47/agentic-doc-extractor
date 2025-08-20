@@ -1,12 +1,7 @@
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
+import subprocess
+import sys
+import os
 
-print("✅ Your environment is working!")
-
-# Example: fetch title from a webpage
-url = "https://example.com"
-response = requests.get(url)
-soup = BeautifulSoup(response.text, "html.parser")
-
-print("Page title:", soup.title.string)
+if __name__ == "__main__":
+    script_path = os.path.join(os.path.dirname(__file__), "src", "app.py")
+    subprocess.run([sys.executable, "-m", "streamlit", "run", script_path])
