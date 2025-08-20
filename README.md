@@ -9,7 +9,7 @@ A Streamlit app that ingests PDFs or images, runs OCR, **auto-detects document t
 ## ✨ Features
 - Upload **PDF** or **Image** (PNG/JPG/JPEG)
 - OCR (Tesseract) for scanned docs
-- Routing to detect doc type (invoice, prescription, id_document, resume, bank_statement, generic)
+- Routing to detect doc type: `invoice`, `prescription`, `id_document`, `resume`, `bank_statement`, `generic`
 - Regex-based field extraction (invoice no., date, amount, name, etc.)
 - Confidence score per field + overall average
 - Basic QA validations (date/amount shape checks)
@@ -18,22 +18,23 @@ A Streamlit app that ingests PDFs or images, runs OCR, **auto-detects document t
 ---
 
 ## 🧱 Tech Stack
-- Python 3.9
+- Python 3.9+
 - Streamlit
 - Tesseract OCR (`pytesseract`)
-- PyMuPDF and/or pdf2image + PIL
+- PyMuPDF (`fitz`) and/or `pdf2image` + `Pillow`
 - Regex + light heuristics
 
 ---
 
 ## 📦 Requirements
-- **Python 3.9**
+
+- **Python 3.9+**
 - **Tesseract OCR**
-  - Windows typical path: `C:\Program Files\Tesseract-OCR\`
+  - Windows installer: install to `C:\Program Files\Tesseract-OCR\`
   - Add that folder to your **PATH**
 - **For PDFs**
-  - If using **pdf2image**: install **Poppler** and add its `bin` folder to **PATH**
-  - If using **PyMuPDF (fitz)**: no Poppler needed
+  - If using **pdf2image**: install **Poppler** and add its `bin` to **PATH**
+  - If using **PyMuPDF (fitz)**: Poppler not required
 
 > This project works locally with Tesseract installed. No API keys needed.
 
@@ -44,7 +45,9 @@ A Streamlit app that ingests PDFs or images, runs OCR, **auto-detects document t
 ```bash
 # From project root
 python -m venv .venv
-.venv\Scripts\activate      # Windows
-# source .venv/bin/activate  # Mac/Linux
+# Windows
+.venv\Scripts\activate
+# Mac/Linux
+# source .venv/bin/activate
 
 pip install -r requirements.txt
